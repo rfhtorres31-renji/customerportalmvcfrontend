@@ -133,6 +133,7 @@ frontend/
 - Real-time messaging via WebSockets.
 - Improved UI/UX with responsive design and better layouts.
 - Enhanced error handling and loading states.
+- Logout system
 ```
 
 ---
