@@ -72,6 +72,9 @@ npm run dev
 
 ---
 
+4. Use the following Login Credentials:
+  Email: rfhtorres@example.com or mark@example.com
+  Phone Number: 09354215380 (for rfhtorres@example.com) or 09987654321 (for mark@example.com)
 ## Usage
 
 1. Open the app in your browser:
