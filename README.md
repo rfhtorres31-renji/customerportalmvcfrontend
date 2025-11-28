@@ -48,13 +48,8 @@ The focus is on **functionality** under a strict **5-hour time constraint**.
 - npm or yarn  
 
 ### Steps
-
 1. Navigate to the frontend folder:
 
 ```bash
 cd customerportalmvcfrontend
-
-2. Install dependencies:
-```bash
-npm install
 
