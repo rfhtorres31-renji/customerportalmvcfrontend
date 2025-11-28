@@ -1,0 +1,77 @@
+/* Table wrapper for shadow + rounded corners */
+.table-container {
+  width: 90%;
+  max-width: 900px;
+  background-color: #fff;
+  border-radius: 12px;   /* round corners on container */
+  overflow: hidden;      /* clip child content for rounded corners */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  margin-top: 20px;
+}
+
+/* Table */
+.table-container table {
+  width: 100%;
+  border-collapse: separate; /* important for visible borders with radius */
+  border-spacing: 0;         /* remove gaps between cells */
+}
+
+/* Table Head */
+.table-container th {
+  background-color: #4CAF50;
+  color: #fff;
+  text-align: left;
+  padding: 12px 15px;
+  font-weight: 600;
+  border: 1px solid black; /* visible black border */
+}
+
+/* Table Body */
+.table-container td {
+  padding: 12px 15px;
+  border: 1px solid black; /* visible black border */
+}
+
+/* Rounded corners for first/last cells */
+.table-container th:first-child {
+  border-top-left-radius: 12px;
+}
+.table-container th:last-child {
+  border-top-right-radius: 12px;
+}
+.table-container td:first-child:last-child {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* Row hover effect */
+.table-container tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Button inside table */
+.table-container button {
+  padding: 6px 14px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.table-container button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .table-container {
+    width: 100%;
+  }
+  .table-container th,
+  .table-container td {
+    padding: 10px;
+  }
+}
