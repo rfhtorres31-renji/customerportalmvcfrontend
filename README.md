@@ -49,10 +49,11 @@ The focus is on **functionality** under a strict **5-hour time constraint**.
 
 ### Steps
 
-1. Navigate to the frontend folder:
+1. Clone the repository:
 
 ```bash
-cd customerportalmvcfrontend
+git clone https://github.com/rfhtorres31-renji/customerportalmvcfrontend
+cd customerportalmvcbackend
 ```
 
 2. Install dependencies:
