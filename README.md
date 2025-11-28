@@ -53,7 +53,7 @@ The focus is on **functionality** under a strict **5-hour time constraint**.
 
 ```bash
 git clone https://github.com/rfhtorres31-renji/customerportalmvcfrontend
-cd customerportalmvcbackend
+cd customerportalmvcfrontend
 ```
 
 2. Install dependencies:
