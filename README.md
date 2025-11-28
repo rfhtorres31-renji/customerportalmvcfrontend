@@ -94,12 +94,29 @@ http://localhost:3000
 
 ```text
 frontend/
-├─ app/                  # Next.js pages & components
-│  ├─ bookings/          # Bookings list & dynamic details page
-│  ├─ dashboard.css      # Styles for dashboard
-├─ public/               # Static assets
+├─ src/
+│  ├─ app/
+│  │  ├─ bookings/          # Bookings list and dynamic booking details
+│  │  │  ├─ [uuid]/         # Dynamic route for individual bookings
+│  │  │  └─ dashboard.css   # Styles for bookings dashboard
+│  │  ├─ login/             # Login page and styles
+│  │  │  ├─ page.tsx
+│  │  │  └─ login.css
+│  │  ├─ layout.tsx         # Main layout component
+│  │  ├─ page.tsx           # Homepage / landing page
+│  │  └─ page.module.css    # Homepage module CSS
+├─ public/
+│  └─ favicon.ico
+├─ .next/                   # Next.js build output (auto-generated)
+├─ node_modules/            # Installed dependencies
 ├─ package.json
+├─ package-lock.json
 ├─ tsconfig.json
+├─ next.config.ts
+├─ next-env.d.ts
+├─ globals.css
+├─ eslint.config.mjs
+└─ README.md
 ```
 
 ---
