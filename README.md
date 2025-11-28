@@ -55,51 +55,6 @@ The focus is on **functionality** under a strict **5-hour time constraint**.
 cd customerportalmvcfrontend
 
 2. Install dependencies:
-
+```bash
 npm install
 
-
-3. Start the development server:
-
-npm run dev
-
-
-Frontend will run at http://localhost:3000
-
-Make sure the backend is running at http://localhost:3304/api before using the app.
-
-Usage
-# Open the app in your browser
-http://localhost:3000
-
-
-Log in with any email and phone number (POC simulation).
-
-Navigate to Bookings Dashboard to see all bookings.
-
-Click View to see booking details, attachments, and messages.
-
-Send messages in the text area; messages are persisted in the backend.
-
-Folder Structure
-frontend/
-├─ app/                  # Next.js pages & components
-│  ├─ bookings/          # Bookings list & dynamic details page
-│  ├─ dashboard.css      # Styles for dashboard
-├─ public/               # Static assets
-├─ package.json
-├─ tsconfig.json
-
-Potential Improvements
-- Implement real authentication (JWT/session-based).
-- Persist messages in a database instead of in-memory storage.
-- Real-time messaging via WebSockets.
-- Improved UI/UX with responsive design and better layouts.
-- Enhanced error handling and loading states.
-
-AI Assistance
-AI-assisted tools were used to:
-- Scaffold frontend components quickly
-- Generate Next.js page structure and state management
-- Optimize API integration and routing
-- Suggest folder structure and README formatting
