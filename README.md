@@ -53,5 +53,4 @@ The focus is on **functionality** under a strict **5-hour time constraint**.
 ```bash
 cd customerportalmvcfrontend
 
-2. Install Dependencies
-
+2. npm install
